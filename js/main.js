@@ -22,4 +22,8 @@ console.log(typeof myObj);
 const sendJSON = JSON.stringify(myObj);
 console.log(sendJSON);
 console.log(typeof sendJSON);
-console.log(sendJSON);
+console.log(sendJSON.myName);
+
+const receiveJSON = JSON.parse(sendJSON);
+console.log(receiveJSON);
+console.log(typeof receiveJSON);
